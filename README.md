@@ -46,14 +46,9 @@ print(candidate)
 - `semiotic_velocity/pipeline.py` — machine candidate generation;
 - `config/targets.yaml` — versioned targets, thresholds, and linguistic rules;
 - `schema.sql` — initial research-data schema;
-- `tests/` — safeguard regression tests.
+- `tests/` — safeguard regression tests;
+- [`PRODUCT_BACKLOG.md`](PRODUCT_BACKLOG.md) — ordered research and development backlog.
 
-## Next implementation priorities
+## Roadmap
 
-1. add database persistence and migrations;
-2. implement the human review/double-coding workflow;
-3. add CLIP, pHash, OCR, and structural candidate retrieval;
-4. build the validation corpus and evaluation exports;
-5. implement circulatory and semiotic velocity calculations from stored raw values;
-6. add CSV/JSON exports and publication-quality SVG/PNG charts;
-7. implement privacy, platform-compliance, and handover documentation.
+The ordered Scrum backlog, first-release gate and research-oriented definition of done are maintained in [`PRODUCT_BACKLOG.md`](PRODUCT_BACKLOG.md).
