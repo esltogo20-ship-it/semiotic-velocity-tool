@@ -1,0 +1,20 @@
+configuration_version: "6.0.0"
+coding_scheme_version: "6.0.0"
+
+target_objects:
+  - id: "stanczyk-1862"
+    label: "Jan Matejko's Stańczyk (1862)"
+    visual_retrieval:
+      dhash_candidate_thresholds:
+        tier_a: 5
+        tier_b: 12
+        tier_c: 20
+      thresholds_are_calibrated: false
+      planned_methods: [phash, clip, sift, orb, pose, ocr]
+    linguistic_retrieval:
+      roots: ["Stańczyk", "Stańczyka", "Stańczykowi", "Stańczykiem", "Stańczyku"]
+      fragments: ["Stań", "Stanczyk"]
+      mediators: ["Jan Matejko", "Wyspiański", "Wesele", "Wajda"]
+      contextual_anchors: ["Kraków", "Wawel", "Jagiellonian", "błazen"]
+      exclusion_terms: ["piłkarz", "mecz", "sports"]
+    event_windows: []
