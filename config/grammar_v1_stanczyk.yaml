@@ -1,0 +1,34 @@
+# Semiotic Velocity Tool — Visual Grammar Configuration v1.3
+target_objects:
+  - id: "stanczyk_1862"
+    metadata:
+      name: "Stańczyk"
+      artist: "Jan Matejko"
+      year: 1862
+      institution: "Muzeum Narodowe w Warszawie"
+      inventory: "MP 434"
+    thresholds:
+      tier_a_hamming: 5
+      tier_b_hamming: 12
+      tier_c_hamming: 20
+      tier_d_sift: 40
+    tier_d_subtypes:
+      grammar_only: true
+      intertextual: true
+      stylistic_derivative: true
+      stylistic_derivative_flag: "non_political"
+    linguistic_anchors:
+      roots: ["Stańczyk", "Stańczyka", "Stańczykowi", "Stańczykiem", "Stańczyku"]
+      fragments: ["STAŃ"]
+      primary_anchors: ["Jan Matejko", "Podstawa Programowa"]
+      secondary_anchors: ["Kraków", "Wawel", "Jagiellonian", "błazen"]
+      exclusion_terms: ["piłkarz", "mecz"]
+    intertextual_entities:
+      - "Wyspiański"
+      - "Wesele"
+      - "Wajda"
+    political_events:
+      - date: 2010-04-10
+        label: "Smolensk air disaster"
+      - date: 2023-10-15
+        label: "Polish parliamentary election 2023"
