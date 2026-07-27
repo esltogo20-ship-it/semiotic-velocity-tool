@@ -46,3 +46,43 @@ An item is done only when:
 - the README distinguishes implemented and planned functionality accurately.
 
 Software completion does not constitute methodological or empirical validation.
+## Proposal-synchronisation epic (v6.1)
+
+The following items are required by the current UMCS proposal and join the first-release research gate.
+
+### SV-21 — Multilingual linguistic retrieval
+**Priority:** P0  
+**Acceptance criteria:**
+- Polish, Russian and German have separate, versioned query variants, morphology, transliteration, contextual anchors and false-positive rules.
+- Each hit stores `search_language`, `source_language`, `query_variant`, `historical_name_variant`, `transliteration_scheme` and `reception_tradition`.
+- Language is never inferred as nationality or political identity.
+- Positive and negative fixtures exist for all three languages.
+
+### SV-22 — Semantic-state transitions and dominance
+**Priority:** P0  
+**Acceptance criteria:**
+- Records support prior/subsequent semantic state, transition type, evidence, comparison period, coder confidence and coding-specification version.
+- Meaning status is `dominant`, `contested` or `indeterminate`, with institutional, reception, educational, political and corpus-prevalence evidence stored separately.
+- ΔS is not assumed to be naturally continuous; an ordinal score is optional and versioned.
+- Alternative specifications and sensitivity-analysis results are exportable.
+
+### SV-23 — Derivative lineages and circulation counts
+**Priority:** P0  
+**Acceptance criteria:**
+- Store derivative family, parent record, relationship type/evidence and earliest supported origin date.
+- Reports distinguish unique families, manifestations and reposts.
+- Reposts cannot silently inflate derivative counts.
+
+### SV-24 — Historical periods and source-stratified sampling
+**Priority:** P0  
+**Acceptance criteria:**
+- Configurable periods initially cover late partition, interwar, occupation, state-socialist, post-1989 and post-2010.
+- Sampling exports preserve source stratum, inclusion rule, coverage, archival survival, digitisation, platform availability and evidential weight.
+- Period boundaries and weighting rules are versioned, not hard-coded.
+
+### SV-25 — Reliability and enhanced ethics
+**Priority:** P0  
+**Acceptance criteria:**
+- Independent coding export supports Krippendorff’s alpha and retains pre-adjudication labels.
+- Privacy review covers re-identification, discoverability and identifiable political content.
+- Release tests include multilingual fixtures, lineage-aware counts, transition coding, source-stratified export and at least one sensitivity analysis.
