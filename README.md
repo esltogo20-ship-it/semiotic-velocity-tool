@@ -1,6 +1,6 @@
 # Semiotic Velocity Tool
 
-Research software for studying the circulation and changing interpretation of Jan Matejko's *Stańczyk* (1862), with a Phase 1 emphasis on the post-2010 digital corpus.
+Research software for studying the circulation and changing interpretation of Jan Matejko's *Stańczyk* (1862).
 
 ## Status
 
