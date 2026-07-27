@@ -52,3 +52,15 @@ print(candidate)
 ## Roadmap
 
 The ordered Scrum backlog, first-release gate and research-oriented definition of done are maintained in [`PRODUCT_BACKLOG.md`](PRODUCT_BACKLOG.md).
+## Current proposal alignment (v6.1)
+
+The current UMCS proposal expands the implementation target beyond the original v6 foundation:
+
+- linguistic retrieval must support Polish, Russian and German with language-specific morphology, historical variants, transliteration, contextual anchors and false-positive controls;
+- the unit of analysis is a documented derivative or invocation in context, with reposts linked through derivative lineages;
+- semantic change is recorded as an evidenced transition between coded states; any ordinal ΔS score is optional, versioned and subject to sensitivity analysis;
+- meaning status is coded as `dominant`, `contested` or `indeterminate`, with evidence and confidence;
+- comparison periods and source strata are configurable, and exports retain archival survival, digitisation, platform availability and evidential-weight metadata;
+- privacy review includes re-identification, search-engine discoverability and identifiable political content.
+
+These are planned requirements until the corresponding backlog items and tests are complete. The software must not represent unimplemented controls as operational.
